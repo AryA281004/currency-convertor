@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Currency symbols background -->
+    <div class="currency-symbol symbol-1">$</div>
+    <div class="currency-symbol symbol-2">€</div>
+    <div class="currency-symbol symbol-3">£</div>
+    <div class="currency-symbol symbol-4">¥</div>
+    <div class="currency-symbol symbol-5">₹</div>
+    <div class="currency-symbol symbol-6">₽</div>
+    <div class="currency-symbol symbol-7">₩</div>
+    <div class="currency-symbol symbol-8">₦</div>
+    <div class="currency-symbol symbol-9">₪</div>
+    <div class="currency-symbol symbol-10">฿</div>
+    <div class="currency-symbol symbol-11">₱</div>
+    <div class="currency-symbol symbol-12">₴</div>
+    <div class="currency-symbol symbol-13">₸</div>
+    <div class="currency-symbol symbol-14">₺</div>
+    <div class="currency-symbol symbol-15">₾</div>
+    <div class="currency-symbol symbol-16">₿</div>
+    <div class="currency-symbol symbol-17">₡</div>
+    <div class="currency-symbol symbol-18">₵</div>
+    <div class="currency-symbol symbol-19">₼</div>
+    <div class="currency-symbol symbol-20">¢</div>
+    
+    <h1>Currency Convertor </h1>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form id="currency-form">
+                    <div class="form-group">
+                        <label for="amount">Amount:</label>
+                        <input type="number" id="amount" name="amount" required>
+                    </div>
+                    
+                    <div class="currency-row">
+                        <div class="form-group">
+                            <label for="from-currency">From:</label>
+                            <div class="select-wrapper">
+                                <img src="https://flagsapi.com/US/flat/64.png" alt="US Flag" class="flag-icon">
+                                <select id="from-currency" name="from-currency" required>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="to-currency">To:</label>
+                            <div class="select-wrapper">
+                                <img src="https://flagsapi.com/IN/flat/64.png" alt="India Flag" class="flag-icon">
+                                <select id="to-currency" name="to-currency" required>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="result">
+                        <p id="result1">Rate:</p>
+                    </div>
+                    <div class="result">
+                        <p id="result2">1 USD = 80 INR</p>
+                    </div>
+                    
+                    <button id="convert">Convert</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+              
+    <script src="code.js"></script> 
+    <script src="script.js"></script> 
+</body>
+</html>
