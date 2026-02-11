@@ -1,4 +1,4 @@
-const Base_URL = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/'; 
+const Base_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/'; 
 
 const bothselect = document.querySelectorAll(".currency-row select");
 const fromcurr = document.querySelector("#from-currency");
